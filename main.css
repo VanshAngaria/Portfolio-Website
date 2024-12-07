@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Veitnam Pro", sans-serif;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+
+}
+
+.logo{
+    display: flex;
+    border-bottom: 2px solid #000;
+}
+
+#logo-img{
+    width: 250px;
+    border-bottom: 2px solid #000;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+.nav-items :hover{
+    transition: 0.8s;
+    border-bottom: 2px solid #000;
+    color: black;
+    
+}
+#nav-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #746d6d;
+    text-decoration: none;
+}
+#nav-text:hover{
+    transition: 0.7s;
+    color: black;
+}
+
+
