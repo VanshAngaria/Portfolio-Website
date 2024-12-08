@@ -58,3 +58,123 @@
 }
 
 
+.hero-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 4rem;
+    padding-bottom: 8rem;
+}
+
+.faded-text{
+    user-select: none;
+    font-size: 7em;
+    color: rgb(231,231,231);
+    bottom: -16%;
+    left: -5%;
+    font-weight: bold;
+    transition:all 3s;
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero-section-heading{
+    font-size: 35px;
+    font-weight: 500;
+    color: #343d68;
+}
+.role{
+    color: #6c757d; 
+    font-weight: 250;
+}  
+
+.hero-section-subheading{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.hero-section-description{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #373a3c;
+    font-weight: 300;
+    width: 70%;
+}
+
+.btn-hire-me{
+    display: inline-block;
+    padding: 1rem 2rem;
+    width: fit-content  ;
+    margin-top: 2rem;
+    background-color: #343d68;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    transform-origin: left;
+    transition:all 0.8s;
+}
+#btn{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+
+.btn-hire-me:hover{
+    background-color: #fff;
+    transform: scaleX(1);
+    border:solid 3px #343d68;
+    color: #373a3c;
+}
+#btn:hover{
+    color: #343d68;
+}
+.hero-section-right{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.img-size{
+    max-width: 100%;
+    max-height: 100%;
+}
+.user-image{
+    overflow: hidden; /* Prevent overflow */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 25%;
+    height: auto;
+    padding: 2.5rem;
+    filter:grayscale(1);
+    transition:all 1s ;
+    animation:scaleImage 5s linear infinite;
+    z-index: -9;
+}
+@keyframes scaleImage{
+    0%{
+        filter: grayscale(0);
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+        filter: grayscale(1);
+        box-shadow: 3px 3px 10px #000;
+    }
+    100%{
+        transform: scale(1);
+        filter: grayscale(0); 
+    }
+}
+
+
