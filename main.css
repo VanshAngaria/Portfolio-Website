@@ -391,6 +391,7 @@
 }
 
 .project-card{
+    padding-top: 4%;
     width: 80%;
     height: 550px;
     background-image: url(./photos/addidas.png);
@@ -426,6 +427,23 @@
 .project-card:hover::before{
     transform: scaleY(1);
 }
+
+.project2{
+    background-image: url(./photos/wordcloud.png);
+}
+
+.p2{
+    margin-left: 5%;
+}
+
+.project3{
+    background-image: url(./photos/twitter.png);
+}
+
+.project4{
+    background-image: url(./photos/portfolio.png);
+}
+
 
 .project-number{
     position: absolute;
@@ -470,8 +488,8 @@
     gap: 10px;
     width: 60%;
     align-items: center;
-    justify-content: center;
-    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    
 }
 
 .project-skills {
@@ -561,6 +579,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .skill-container-right{
+    padding-top: 4%;
     width: 50%;
     margin-left: 8rem;
     margin-top: 10%;
@@ -569,6 +588,8 @@
     position: relative;
     gap: 1rem;
 }
+
+
 .skill-faded-text {
     position: relative;
     font-size: 10em;
