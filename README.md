@@ -18,7 +18,7 @@ Welcome to my portfolio website! This is a personal space where I showcase my sk
 ---
 
 ## 📸 Preview
-![Website Screenshot](assets/screenshot.png)  
+![Website Screenshot](ss.PNG)  
 *A glimpse of the homepage.*
 
 ---
